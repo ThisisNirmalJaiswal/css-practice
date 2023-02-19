@@ -1,0 +1,76 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    background-color: #151b29;
+}
+
+button{
+    background:none;
+    color:#ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size:1em;
+    transition: all 0.2s;
+}
+
+button:hover{
+    border-color: #f1ff5c;
+    color:white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+
+
+/* .amazing-button {
+    display: inline-block;
+    background-color: #f44336;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .amazing-button:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .amazing-button:hover:before {
+    transform: translateX(0);
+  }
+  
+  .amazing-button:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: #ffffff;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .amazing-button:hover:after {
+    width: 100%;
+  }
+   */
+
+
+
+
